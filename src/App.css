@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+.board {
+
+  display:inline-block;
+  margin:20px;
+
+}
+
+.cell {
+
+  width:35px;
+  height: 35px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
