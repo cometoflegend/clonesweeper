@@ -1,0 +1,67 @@
+.boardBase {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.board {
+
+display: flex;
+flex-direction: column;
+
+}
+
+.row {
+
+display: flex;
+
+}
+
+.cell {
+
+width: 30px;
+height: 30px;
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+
+}
+
+.cell img {
+max-width: 100%; 
+max-height: 100%; 
+object-fit: contain; 
+}
+
+.cell .flag {
+position: absolute;
+font-size: 20px; 
+color: red; 
+}
+
+.cell.revealed {
+
+background-color: gray;
+cursor: default;
+
+}
+
+.loss {
+
+margin-top: 20px;
+color:darkred;
+font-size: 30px;
+
+}
+
+.win {
+
+    margin-top: 20px;
+    color:darkblue;
+    font-size: 30px;
+    
+}
