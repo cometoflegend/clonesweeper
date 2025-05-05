@@ -322,7 +322,7 @@ const Board = () => {
 
             </div>
 
-            {over && <div className="loss">¡Perdiste! 💣</div>}
+            {over && <div className="loss">¡Perdiste! <img src={cometImg} width={30} height={30} alt="cometa" /></div>}
             {win && <div className="win">¡Ganaste! 🎉</div>}
 
             <button onClick={initialize}>Volver a jugar</button>
